@@ -1,0 +1,56 @@
+//
+//  XYChatListVC.swift
+//  SwiftPractiseForCppServer
+//
+//  Created by Aventador on 2024/5/27.
+//
+
+import UIKit
+
+class XYChatListVC: XYBaseViewController {
+    
+    var tableView:UITableView!
+    
+    let cellID = "CellID"
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        self.title = "聊天"
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .gray
+        tableView = UITableView(frame: UIScreen.main.bounds, style: .plain)
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(tableView)
+    }
+}
+
+extension XYChatListVC : UITableViewDelegate,UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 100
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCell(withIdentifier: cellID)
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: cellID)
+        }
+        
+        return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let XYChatVC = XYChatVC()
+        navigationController?.pushViewController(XYChatVC, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
