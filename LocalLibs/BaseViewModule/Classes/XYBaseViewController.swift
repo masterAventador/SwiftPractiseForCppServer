@@ -7,14 +7,14 @@
 
 import UIKit
 
-class XYBaseViewController : UIViewController {
-    required init?(coder: NSCoder) {
+open class XYBaseViewController : UIViewController {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    override public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
-    convenience init() {
+    convenience public init() {
         self.init(nibName: nil, bundle: nil)
     }
 }

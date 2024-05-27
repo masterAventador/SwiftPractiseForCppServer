@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import BaseViewModule
 
 class XYChatVC: XYBaseViewController {
 

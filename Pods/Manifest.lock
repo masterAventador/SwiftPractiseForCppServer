@@ -1,16 +1,29 @@
 PODS:
   - Alamofire (5.9.1)
+  - BaseViewModule (0.0.1)
+  - HttpModule (0.0.1):
+    - Alamofire
 
 DEPENDENCIES:
   - Alamofire
+  - BaseViewModule (from `LocalLibs/BaseViewModule`)
+  - HttpModule (from `LocalLibs/HttpModule`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
 
+EXTERNAL SOURCES:
+  BaseViewModule:
+    :path: LocalLibs/BaseViewModule
+  HttpModule:
+    :path: LocalLibs/HttpModule
+
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  BaseViewModule: a6c11f5ad4ceb51805fe0154a64ceeb7c226375d
+  HttpModule: ce12ebd075ff44df0565420070e0fa6057d0a145
 
-PODFILE CHECKSUM: 40ec4d5524b979810162a8d5492fc18d30545559
+PODFILE CHECKSUM: 615804020e7d0ea0d28287c148eaa74a704d0db3
 
 COCOAPODS: 1.15.2

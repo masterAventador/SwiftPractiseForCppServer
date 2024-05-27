@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-SwiftPractiseForCppServer/Pods-SwiftPractiseForCppServer-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BaseViewModule/BaseViewModule.framework
+${BUILT_PRODUCTS_DIR}/HttpModule/HttpModule.framework

@@ -11,12 +11,9 @@
 		A442617B2C03947300125BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A442617A2C03947300125BDB /* AppDelegate.swift */; };
 		A44261842C03947400125BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44261832C03947400125BDB /* Assets.xcassets */; };
 		A44261872C03947400125BDB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A44261862C03947400125BDB /* Base */; };
-		A44261902C03975300125BDB /* XYBaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A442618F2C03975300125BDB /* XYBaseTabbarController.swift */; };
-		A44261922C03976900125BDB /* XYBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44261912C03976900125BDB /* XYBaseNavigationController.swift */; };
-		A44261942C03977500125BDB /* XYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44261932C03977500125BDB /* XYBaseViewController.swift */; };
-		A44261982C041DA800125BDB /* XYChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44261972C041DA800125BDB /* XYChatListVC.swift */; };
-		A442619A2C041E0000125BDB /* XYContactsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44261992C041E0000125BDB /* XYContactsListVC.swift */; };
-		A442619C2C042ED200125BDB /* XYChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A442619B2C042ED200125BDB /* XYChatVC.swift */; };
+		A44261A22C04864700125BDB /* XYChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44261A02C04864700125BDB /* XYChatListVC.swift */; };
+		A44261A32C04864700125BDB /* XYChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44261A12C04864700125BDB /* XYChatVC.swift */; };
+		A44261A52C04866000125BDB /* XYContactsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44261A42C04866000125BDB /* XYContactsListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +24,9 @@
 		A44261832C03947400125BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A44261862C03947400125BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A44261882C03947400125BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A442618F2C03975300125BDB /* XYBaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBaseTabbarController.swift; sourceTree = "<group>"; };
-		A44261912C03976900125BDB /* XYBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBaseNavigationController.swift; sourceTree = "<group>"; };
-		A44261932C03977500125BDB /* XYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBaseViewController.swift; sourceTree = "<group>"; };
-		A44261972C041DA800125BDB /* XYChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYChatListVC.swift; sourceTree = "<group>"; };
-		A44261992C041E0000125BDB /* XYContactsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYContactsListVC.swift; sourceTree = "<group>"; };
-		A442619B2C042ED200125BDB /* XYChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYChatVC.swift; sourceTree = "<group>"; };
+		A44261A02C04864700125BDB /* XYChatListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYChatListVC.swift; sourceTree = "<group>"; };
+		A44261A12C04864700125BDB /* XYChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYChatVC.swift; sourceTree = "<group>"; };
+		A44261A42C04866000125BDB /* XYContactsListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYContactsListVC.swift; sourceTree = "<group>"; };
 		D536B70480C49A165E09DFD1 /* Pods-SwiftPractiseForCppServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPractiseForCppServer.release.xcconfig"; path = "Target Support Files/Pods-SwiftPractiseForCppServer/Pods-SwiftPractiseForCppServer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +74,6 @@
 			children = (
 				A44261952C041D2600125BDB /* Tabbar1 */,
 				A44261962C041D6600125BDB /* Tabbar2 */,
-				A442618E2C03972900125BDB /* BaseViewModule */,
 				A442617A2C03947300125BDB /* AppDelegate.swift */,
 				A44261832C03947400125BDB /* Assets.xcassets */,
 				A44261852C03947400125BDB /* LaunchScreen.storyboard */,
@@ -89,21 +82,11 @@
 			path = SwiftPractiseForCppServer;
 			sourceTree = "<group>";
 		};
-		A442618E2C03972900125BDB /* BaseViewModule */ = {
-			isa = PBXGroup;
-			children = (
-				A442618F2C03975300125BDB /* XYBaseTabbarController.swift */,
-				A44261912C03976900125BDB /* XYBaseNavigationController.swift */,
-				A44261932C03977500125BDB /* XYBaseViewController.swift */,
-			);
-			path = BaseViewModule;
-			sourceTree = "<group>";
-		};
 		A44261952C041D2600125BDB /* Tabbar1 */ = {
 			isa = PBXGroup;
 			children = (
-				A44261972C041DA800125BDB /* XYChatListVC.swift */,
-				A442619B2C042ED200125BDB /* XYChatVC.swift */,
+				A44261A02C04864700125BDB /* XYChatListVC.swift */,
+				A44261A12C04864700125BDB /* XYChatVC.swift */,
 			);
 			path = Tabbar1;
 			sourceTree = "<group>";
@@ -111,7 +94,7 @@
 		A44261962C041D6600125BDB /* Tabbar2 */ = {
 			isa = PBXGroup;
 			children = (
-				A44261992C041E0000125BDB /* XYContactsListVC.swift */,
+				A44261A42C04866000125BDB /* XYContactsListVC.swift */,
 			);
 			path = Tabbar2;
 			sourceTree = "<group>";
@@ -239,12 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A442617B2C03947300125BDB /* AppDelegate.swift in Sources */,
-				A44261922C03976900125BDB /* XYBaseNavigationController.swift in Sources */,
-				A442619A2C041E0000125BDB /* XYContactsListVC.swift in Sources */,
-				A44261902C03975300125BDB /* XYBaseTabbarController.swift in Sources */,
-				A44261942C03977500125BDB /* XYBaseViewController.swift in Sources */,
-				A442619C2C042ED200125BDB /* XYChatVC.swift in Sources */,
-				A44261982C041DA800125BDB /* XYChatListVC.swift in Sources */,
+				A44261A22C04864700125BDB /* XYChatListVC.swift in Sources */,
+				A44261A52C04866000125BDB /* XYContactsListVC.swift in Sources */,
+				A44261A32C04864700125BDB /* XYChatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
