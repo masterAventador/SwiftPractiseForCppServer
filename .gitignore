@@ -1,3 +1,5 @@
 
 **/*.DS_Store
 **/*.xcuserstate
+Podfile.lock
+Pods/Manifest.lock

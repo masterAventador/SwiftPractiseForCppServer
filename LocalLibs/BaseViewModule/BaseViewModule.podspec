@@ -55,7 +55,7 @@ spec.homepage     = "https://github.com/masterAventador/SwiftPractiseForCppServe
   
   spec.source       = { :git => "https://github.com/masterAventador/SwiftPractiseForCppServer.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

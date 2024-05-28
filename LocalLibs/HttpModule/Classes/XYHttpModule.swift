@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ProtobufObjModule
 
 open class XYHttpModule {
     
