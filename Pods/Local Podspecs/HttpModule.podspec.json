@@ -19,6 +19,9 @@
   ],
   "exclude_files": "Classes/Exclude",
   "dependencies": {
+    "ProtobufObjModule": [
+
+    ],
     "Alamofire": [
 
     ]

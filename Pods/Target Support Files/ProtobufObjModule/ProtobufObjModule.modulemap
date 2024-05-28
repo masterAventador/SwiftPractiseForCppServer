@@ -1,0 +1,6 @@
+framework module ProtobufObjModule {
+  umbrella header "ProtobufObjModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

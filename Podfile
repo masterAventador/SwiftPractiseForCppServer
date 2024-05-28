@@ -7,8 +7,8 @@ target 'SwiftPractiseForCppServer' do
 
   # Pods for SwiftPractiseForCppServer
   
-  pod 'Alamofire'
   pod 'HttpModule',:path => 'LocalLibs/HttpModule'
   pod 'BaseViewModule',:path => 'LocalLibs/BaseViewModule'
-
+  pod 'ProtobufObjModule',:path=> 'LocalLibs/ProtobufObjModule'
+  
 end
