@@ -7,6 +7,9 @@
 
 import UIKit
 import BaseViewModule
+import HttpModule
+import HttpPBModule
+
 
 class XYChatListVC: XYBaseViewController {
     
@@ -31,6 +34,20 @@ class XYChatListVC: XYBaseViewController {
         tableView.delegate = self
         tableView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(tableView)
+        
+        
+        let loginReq = Http_LoginReq.with {
+            $0.account = "amigo"
+            $0.pwdMd5 = "amigo"
+        }
+        XYHttpModule.post(loginReq, responseType: Http_LoginResp.self) { response in
+            switch response {
+            case .success(let value):
+                print(value.token)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 }
 

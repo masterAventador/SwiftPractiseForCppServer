@@ -9,6 +9,6 @@ target 'SwiftPractiseForCppServer' do
   
   pod 'HttpModule',:path => 'LocalLibs/HttpModule'
   pod 'BaseViewModule',:path => 'LocalLibs/BaseViewModule'
-  pod 'ProtobufObjModule',:path=> 'LocalLibs/ProtobufObjModule'
+  pod 'HttpPBModule',:path=> 'LocalLibs/HttpPBModule'
   
 end

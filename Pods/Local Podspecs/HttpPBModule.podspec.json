@@ -1,11 +1,8 @@
 {
-  "name": "ProtobufObjModule",
+  "name": "HttpPBModule",
   "version": "0.0.1",
-  "summary": "ProtobufObj Datas",
+  "summary": "Http ProtobufObj Datas",
   "homepage": "https://github.com/masterAventador/SwiftPractiseForCppServer.git",
-  "license": {
-    "type": "MIT"
-  },
   "authors": {
     "masterAventador": "419460185@qq.com"
   },

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7851EF6A52800695941B10AAE0594078"
-               BuildableName = "ProtobufObjModule.framework"
-               BlueprintName = "ProtobufObjModule"
+               BlueprintIdentifier = "CC79D865B148C8094C61AF6AE8C30128"
+               BuildableName = "HttpPBModule.framework"
+               BlueprintName = "HttpPBModule"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

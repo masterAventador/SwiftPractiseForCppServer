@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ProtobufObjModuleVersionNumber;
-FOUNDATION_EXPORT const unsigned char ProtobufObjModuleVersionString[];
+FOUNDATION_EXPORT double HttpPBModuleVersionNumber;
+FOUNDATION_EXPORT const unsigned char HttpPBModuleVersionString[];
 
