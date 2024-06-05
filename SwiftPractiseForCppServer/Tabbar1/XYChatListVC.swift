@@ -8,7 +8,6 @@
 import UIKit
 import BaseViewModule
 import HttpModule
-import HttpPBModule
 
 
 class XYChatListVC: XYBaseViewController {

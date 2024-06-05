@@ -179,14 +179,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BaseViewModule/BaseViewModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HttpModule/HttpModule.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HttpPBModule/HttpPBModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BaseViewModule/BaseViewModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HttpModule/HttpModule.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/HttpPBModule/HttpPBModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

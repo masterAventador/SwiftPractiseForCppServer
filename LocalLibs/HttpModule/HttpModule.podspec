@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
-  spec.dependency 'HttpPBModule'
   spec.dependency 'Alamofire'
+  spec.dependency 'SwiftProtobuf'
 
 end

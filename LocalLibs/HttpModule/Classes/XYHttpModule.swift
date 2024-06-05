@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import HttpPBModule
 import SwiftProtobuf
 import Alamofire
 
